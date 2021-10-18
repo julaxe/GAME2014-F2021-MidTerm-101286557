@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1924381406409770485}
   - component: {fileID: 1924381406409770486}
   - component: {fileID: 1924381406409770487}
+  - component: {fileID: 786270582}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -44,6 +45,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -118,8 +120,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletManager: {fileID: 0}
-  horizontalBoundary: 1.9
-  horizontalSpeed: 2
+  verticalBoundary: 4.5
+  verticalSpeed: 100
   maxSpeed: 6
-  horizontalTValue: 0.1
+  verticalTValue: 0.1
   fireDelay: 0.2
+--- !u!95 &786270582
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924381406409770472}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 362200f300432004a9bbe983b345d08a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
