@@ -1,6 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//Enemy Controller
+//Julian Escobar Echeverri
+//StudentID: 101286557
+//last modified: 2021-10-18
+//description: Controller for the enemy.
+//History:
+//2021-10-18: change behaviour from portrait to landscape.
+//
+
 
 public class EnemyController : MonoBehaviour
 {

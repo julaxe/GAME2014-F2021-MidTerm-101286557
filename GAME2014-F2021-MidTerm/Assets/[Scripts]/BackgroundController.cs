@@ -2,6 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//BackgroundController
+//Julian Escobar Echeverri
+//StudentID: 101286557
+//last modified: 2021-10-18
+//description: Controller for the background, infinite background scroll.
+//History:
+//2021-10-18: change behaviour from portrait to landscape.
+//
+
 public class BackgroundController : MonoBehaviour
 {
     public float horizontalSpeed;

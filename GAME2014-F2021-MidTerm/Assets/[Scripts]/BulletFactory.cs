@@ -1,6 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//BulletFactory
+//Julian Escobar Echeverri
+//StudentID: 101286557
+//last modified: unknown.
+//description: Factory design pattern for the creation of bullets in the game.
+//History:
+//
 
 [System.Serializable]
 public class BulletFactory : MonoBehaviour

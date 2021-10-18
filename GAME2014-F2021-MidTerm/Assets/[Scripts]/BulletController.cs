@@ -1,7 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//BulletController
+//Julian Escobar Echeverri
+//StudentID: 101286557
+//last modified: 2021-10-18
+//description: Controller for the bullet.
+//History:
+//2021-10-18: change behaviour from portrait to landscape.
+//
 public class BulletController : MonoBehaviour, IApplyDamage
 {
     public float horizontalSpeed;

@@ -3,7 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using UnityEditor;
 using UnityEngine;
-
+//PlayerController
+//Julian Escobar Echeverri
+//StudentID: 101286557
+//last modified: 2021-10-18
+//description: Controller for the player.
+//History:
+//2021-10-18: change behaviour from portrait to landscape.
+//
 public class PlayerController : MonoBehaviour
 {
     public BulletManager bulletManager;

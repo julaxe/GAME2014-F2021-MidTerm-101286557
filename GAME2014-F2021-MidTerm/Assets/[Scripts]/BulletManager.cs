@@ -1,7 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//BulletManager
+//Julian Escobar Echeverri
+//StudentID: 101286557
+//last modified: 2021-10-18
+//description: BulletPools that controls the amount of bullets inside the game
+//History:
+//2021-10-18: copied from the midterm template
+//
 [System.Serializable]
 public class BulletManager : MonoBehaviour
 {
